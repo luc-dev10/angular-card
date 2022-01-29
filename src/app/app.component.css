@@ -1,0 +1,18 @@
+.card {
+  max-width: 350px;
+  /* border: 1px solid #f2f2f2; */
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.class-content {
+  padding: 20px;
+}
+
+.class-content .title {
+  padding-top: 10px;
+}
+
+.content p {
+  padding-top: 20px;
+}
