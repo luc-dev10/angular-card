@@ -1,15 +1,10 @@
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img src="assets/tree.jpeg" alt="image" />
-    </figure>
-  </div>
-  <div class="class-content">
-    <div class="media-content">
-      <p class="title is-4">Neat Tree</p>
-    </div>
-    <div class="content">
-      <p>Saw this awesome tree during my hike today.</p>
-    </div>
+<div class="container">
+  <div class="is-flex is-align-self-center is-justify-content-center">
+    <app-card
+      *ngFor="let post of posts"
+      [title]="post.title"
+      [imageUrl]="post.imageUrl"
+      [content]="post.content"
+    ></app-card>
   </div>
 </div>
